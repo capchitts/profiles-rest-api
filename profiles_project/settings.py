@@ -31,6 +31,8 @@ ALLOWED_HOSTS = ['0.0.0.0']
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
+    'rest_framework.authtoken',
     'profiles_api.apps.ProfilesApiConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -38,8 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
-    'rest_framework.authtoken',
+    
 ]
 
 MIDDLEWARE = [
